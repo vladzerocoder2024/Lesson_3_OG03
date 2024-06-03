@@ -27,3 +27,4 @@ while running:
 
 pygame.quit()
 
+# Что то пошло не так. 
