@@ -14,7 +14,7 @@ target_img = pygame.image.load("img/мишень.png")      # загружаем
 target_wight = 50                           # ширина цели в пикселах
 target_height = 50                          # высота цели в пикселах
 
-targer_x = random.randint(0, SCREEN_WIDHT - target_wight)   # задаём случайные координаты цели в окне
+targer_x = random.randint(0, SCREEN_WIDHT - target_wight)   # задаём случайные координаты цели
 targer_y = random.randint(0, SCREEN_HIGHT - target_height)
 
 Color = (random.randint(0, 255), random.randint(0, 255), random.randint(0, 255))    # задаём случайный цвет экрана игры
