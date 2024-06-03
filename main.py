@@ -7,6 +7,7 @@ SCREEN_HIGHT = 600         # высота экрана
 screen = pygame.display.set_mode((SCREEN_WIDHT, SCREEN_HIGHT))  # создаём окно экрана в игре
 
 pygame.display.set_caption("Игра ТИР")      # создаём заголовок окна экрана в игре
+<<<<<<< Updated upstream
 icon = pygame.image.load("img/Иконка игры ТИР.jpg")   # загружаем в переменную icon изображение иконки игры
 pygame.display.set_icon(icon)                         # устанавливаем иконку
 
@@ -19,6 +20,9 @@ targer_y = random.randint(0, SCREEN_HIGHT - target_height)
 
 Color = (random.randint(0, 255), random.randint(0, 255), random.randint(0, 255))    # задаём случайный цвет экрана игры
 
+=======
+icon = pygame.image.load("img/")                # загружаем в переменную icon изображение иконки игры
+>>>>>>> Stashed changes
 
 
 running = True
